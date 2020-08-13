@@ -1,3 +1,13 @@
+/*  * {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red; //или другой удобный цвет
+}  */
+
+p {
+	margin: 0px;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -16,7 +26,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  align-items: center;
+  text-align: center;
   /* выше установили ограничения для секции */
 }
 
@@ -188,6 +198,7 @@
   height: 790px;
   background-color: #f2f2f2;
   margin-top: 100px;
+  text-align: center;
   justify-content: center;
  }
  
@@ -206,6 +217,7 @@
 .feynman__subtitle {
   display: flex;
   position: absolute;
+  text-align: center;
   margin: 0px;
   top: 346px;
   font-size: 36px;

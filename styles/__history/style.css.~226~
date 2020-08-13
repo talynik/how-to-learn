@@ -1,3 +1,13 @@
+/*  * {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red; //или другой удобный цвет
+}  */
+
+p {
+	margin: 0px;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -193,6 +203,7 @@
  
 .feynman__title {
   display: flex;
+  position: absolute;
   text-align: center;
   width: 648px;
   top: 0px;
