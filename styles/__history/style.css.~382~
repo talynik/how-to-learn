@@ -294,19 +294,20 @@
   color: white;
 }
 
-.footer__column_content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;	
-}
-
 .footer__column_content_copyright {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
   flex-basis: 711px;
   height: 100%;
 }
 
 .footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   margin: 0px;
   padding: 0px;
@@ -314,6 +315,9 @@
 }
 
 .footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   margin: 0px;
   padding: 0px;

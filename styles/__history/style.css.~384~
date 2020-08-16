@@ -301,6 +301,7 @@
 }
 
 .footer__column_content_copyright {
+ /*   position: relative;*/
   justify-content: space-between;
   flex-basis: 711px;
   height: 100%;

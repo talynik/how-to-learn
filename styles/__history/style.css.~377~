@@ -123,18 +123,18 @@
   justify-content: flex-start;
 }
 
-.digits__section-title {
+.section-title {
   display: flex;
   width: 60%;
   margin: 0px;
-  font-weight: bold;
-  justify-content: center;
   font-size: 60px;
   line-height: 1.15;
+  font-weight: bold;
+  justify-content: center;
   z-index: 2;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   display: flex;
   width: 60%;
   margin: 20px;
@@ -231,28 +231,6 @@
   margin: 0px auto 0px auto;
   padding: 90px 0px 90px 0px;
 }
-
-.kaufman__section-title {
-  display: flex;
-  width: 60%;
-  margin: 0px;
-  font-weight: bold;
-  justify-content: center;
-  font-size: 60px;
-  line-height: 69px;
-  z-index: 2;
-}
-
-.kaufman__section-subtitle {
-  display: flex;
-  width: 60%;
-  margin: 20px;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
-  justify-content: center;
-  z-index: 2;
-}
   
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -294,19 +272,20 @@
   color: white;
 }
 
-.footer__column_content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;	
-}
-
 .footer__column_content_copyright {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
   flex-basis: 711px;
   height: 100%;
 }
 
 .footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   margin: 0px;
   padding: 0px;
@@ -314,6 +293,9 @@
 }
 
 .footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   margin: 0px;
   padding: 0px;
@@ -335,7 +317,7 @@
 
 .footer__column-heading {
   display: flex;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 20px;
   text-decoration: none;
   color: white;
   font-size: 18px;
@@ -348,7 +330,7 @@
  /*  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;*/ 
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 16px 0px;
   padding: 0px;
   text-decoration: none;
   color: white;
