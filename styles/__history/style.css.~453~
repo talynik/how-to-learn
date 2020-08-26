@@ -519,8 +519,6 @@ a:hover {
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 .footer__autor {

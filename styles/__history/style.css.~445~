@@ -18,10 +18,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-a:hover {
-	opacity: 0.4;
-}
-
 .header {
   display: flex;
   position: relative;
@@ -71,9 +67,7 @@ a:hover {
   color: #2f80ed;
   text-decoration: none;
   height: 568px;
-  width: 568px;
-  opacity: 1;
-  transition: opacity 1s linear 1s;	
+  width: 568px;	
 }
 
 .header__main-illustration {
@@ -327,8 +321,6 @@ a:hover {
   font-weight: normal;
   text-decoration: none;
   z-index: 2;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 .khan {
@@ -408,8 +400,6 @@ a:hover {
   font-size: 30px;
   line-height: 42px;
   font-weight: normal;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 
@@ -519,8 +509,6 @@ a:hover {
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 .footer__autor {
@@ -547,8 +535,6 @@ a:hover {
   color: white;
   font-size: 18px;
   line-height: 30px;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 .footer__social-icon {

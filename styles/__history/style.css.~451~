@@ -73,7 +73,7 @@ a:hover {
   height: 568px;
   width: 568px;
   opacity: 1;
-  transition: opacity 1s linear 1s;	
+  transition: opacity 2s linear 1s;	
 }
 
 .header__main-illustration {
@@ -328,7 +328,7 @@ a:hover {
   text-decoration: none;
   z-index: 2;
   opacity: 1;
-  transition: opacity 1s linear 1s;
+  transition: opacity 2s linear 1s;
 }
 
 .khan {
@@ -408,8 +408,6 @@ a:hover {
   font-size: 30px;
   line-height: 42px;
   font-weight: normal;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 
@@ -519,8 +517,6 @@ a:hover {
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 .footer__autor {
@@ -547,8 +543,6 @@ a:hover {
   color: white;
   font-size: 18px;
   line-height: 30px;
-  opacity: 1;
-  transition: opacity 1s linear 1s;
 }
 
 .footer__social-icon {
