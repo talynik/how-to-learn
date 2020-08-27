@@ -1,0 +1,8 @@
+.cards__description {
+  display: flex;
+  margin: 16px 0px 0px 0px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  text-align: center;	
+}
