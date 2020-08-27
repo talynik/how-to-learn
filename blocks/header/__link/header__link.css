@@ -3,4 +3,10 @@
   text-decoration: none;
   height: 568px;
   width: 568px;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
